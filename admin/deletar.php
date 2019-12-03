@@ -1,5 +1,12 @@
 <?php
 
+session_start();
+if((!isset ($_SESSION['login']) == true) )
+{
+    echo 'VC NAO TEM PERMISSAO';
+    exit();
+}
+
 require_once "../models/conexao.php";
 //pega o id do item que o usuario quer deletar
 $codigo = $_GET['id'];

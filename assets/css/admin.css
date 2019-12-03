@@ -1,0 +1,24 @@
+/*Tabela*/
+table{
+    border: 1px solid black;
+    font-size: 18px;
+    font-family: tahoma;
+    width: 100%;
+    margin: 20px auto;
+    table-layout: auto;
+  }
+  table th{
+    background-color: #1E90FF;
+    color: #fff
+  }
+  table th, td{
+    padding: 10px;
+    border: 1px solid black;
+  }
+  .fa{
+    font-size: 20px; 
+  }
+  
+  .fa-trash{color: red;}
+  .fa-edit{color: green}
+  .acao{text-align: center}

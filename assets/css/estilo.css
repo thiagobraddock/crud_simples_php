@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+/* Painel Administrativo */
+header{
+    background-color: #333;
+    font-size: 20px;
+    font-family: Tahoma;
+    color: #FFF;
+    
+}
+
+header .container{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav a{
+    color: #fff;
+    margin-right: 16px;
+    
+}
+
+header .logout a{
+    color: rgb(204, 160, 160)
+}
+
+
+/* section teacher  */
+.referencia {
+	border-left: 15px solid #2CB9C0;
+	margin-bottom: 30px;
+	background-color: #ccc
+}
+.referencia:nth-of-type(odd) {
+	border-left: 15px solid #fc6d58!important;
+	background-color: #fff!important
+}
+
+/*QUOTE REFERENCIA******************************************/
+
+.fa-caret-right {
+	color: aquamarine
+}
+blockquote {
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+.quotation-mark {
+	
+	font-weight: bold;
+	font-size: 80px;
+	color: #147FA0;
+    font-family: "Times New Roman", Georgia, Serif;
+    margin-top:-10px;
+    margin-bottom: -30px;
+}
+.quote-text {
+	font-family: sans-serif;
+	font-size: 18px;
+    font-weight: bold;
+    
+}
+.quote-autor {
+	font-weight: bolder;
+	font-size: 20px;
+	font-family: "Permanent Marker";
+	padding: 0;
+	
+}
+/****************************************************/
+
+
+.origem {
+	font-size: 24px;
+	font-family: verdana;
+	padding: 0;
+	margin-bottom: 20px;
+	margin-top:0	
+}
+
