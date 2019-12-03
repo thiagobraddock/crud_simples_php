@@ -1,9 +1,13 @@
 <?php
 
 session_start();
-if((!isset ($_SESSION['login']) == true) )
+//se o usuario nao fez login e tentar acessar esta pagina
+if((!isset ($_SESSION['user'])) )
 {
+    //mostra a msg de erro
     echo 'VC NAO TEM PERMISSAO';
+    //após 3 segundos direciona o usuario para fazer login
+    header("refresh:3;url=http://localhost/teste-script/views/login.php");
     exit();
 }
 
@@ -27,7 +31,7 @@ $conn->close();
 //ao final mostra a msg
 echo "<script>
         alert(\"$msg\");
-        document.location='../index.php';
+        document.location='index.php';
       </script>";
 
 

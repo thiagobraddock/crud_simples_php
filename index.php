@@ -1,6 +1,4 @@
 <?php
-session_start();
-$_SESSION['login'] = 'admin';
 
 require_once "models/conexao.php";
 $sql = "SELECT id_prof,nome, email, frase_foda FROM tb_professores";
