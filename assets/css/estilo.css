@@ -21,6 +21,8 @@ header{
     font-size: 20px;
     font-family: Tahoma;
     color: #FFF;
+    width: 100%;
+    min-width: 500px;
     
 }
 
@@ -98,3 +100,13 @@ blockquote {
 	margin-top:0	
 }
 
+
+
+@media(max-width: 640px){
+    header .container{
+        flex-wrap: wrap-reverse;
+    }
+    header nav, .logout{
+        width: 100%;
+    }
+}
